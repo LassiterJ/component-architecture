@@ -139,9 +139,11 @@ In a typical React application, components can be categorized based on their rol
 
 5. **Smart Components (or Container Components):** These components are concerned with how things work. They include business logic, manage state, fetch data, and generally serve as the glue that connects the presentational components to the rest of your application. They don't include any HTML or CSS, but instead render other components.
 
-6. **Page Components:** These components represent entire pages in your application. They are usually composed of multiple smart and presentational components. They might correspond directly to a route in a single-page application.
+6. **Template Components:** These components define a reusable layout that can be used by multiple pages. For example, you might have a `MainLayout` component that includes a header, a footer, and a slot for the main content.
 
-7. **Template Components:** These components define a reusable layout that can be used by multiple pages. For example, you might have a `MainLayout` component that includes a header, a footer, and a slot for the main content.
+7. **Page Components:** These components represent entire pages in your application. They are usually composed of multiple smart and presentational components. They might correspond directly to a route in a single-page application.
+
+
 
 The implementation and usage of these components can vary widely based on their role and responsibility. However, the key idea is that smaller, simpler components are composed together to create larger, more complex components. This composition is a fundamental part of React's design and one of its main strengths.
 

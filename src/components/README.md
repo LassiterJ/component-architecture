@@ -106,7 +106,6 @@ export function MainLayout({ children }) {
 // HomePage.js
 import { MainLayout } from './MainLayout';
 import { UserList } from './UserList';
-import {Grid} from './Grid';
 export function HomePage() {
   return (
     <MainLayout>
